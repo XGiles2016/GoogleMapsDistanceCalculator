@@ -2,8 +2,11 @@
   <library name="google-maps-services-0.1.14">
     <CLASSES>
       <root url="jar://$USER_HOME$/Downloads/google-maps-services-0.1.14.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java-json.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/java-json.jar!/" />
+    </SOURCES>
   </library>
 </component>

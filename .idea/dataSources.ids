@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - cities@localhost" uuid="bdc929e2-bea7-4f61-a797-7fe6c1c8c041">
+    <database-info product="MySQL" version="5.7.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="cities"/>
+      <table id="2" parent="1" name="cities"/>
+      <column id="3" parent="2" name="city">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="4" parent="2" name="state_code">
+        <mandatory>1</mandatory>
+        <data-type>char(2)</data-type>
+      </column>
+      <index id="5" parent="2" name="idx_state_code">
+        <columns>state_code</columns>
+        <desc-columns></desc-columns>
+      </index>
+    </database-model>
+  </data-source>
+</component>

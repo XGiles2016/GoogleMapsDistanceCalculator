@@ -6,9 +6,9 @@ public class Location {
     String locationName;
     int distanceInMinutes;
 
-    public Location(String locationName, int distance){
+    public Location(String locationName){
         this.locationName = locationName;
-        distance = distanceInMinutes;
+        this.distanceInMinutes = 0;
     }
 
     public void setDistanceInMinutes(int distance){
