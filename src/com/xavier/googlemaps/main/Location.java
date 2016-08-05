@@ -1,6 +1,8 @@
 /**
  * Created by Xavier on 6/7/16.
  */
+
+package com.xavier.googlemaps.main;
 public class Location {
 
     String locationName;

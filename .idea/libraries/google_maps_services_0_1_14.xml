@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/Downloads/google-maps-services-0.1.14.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

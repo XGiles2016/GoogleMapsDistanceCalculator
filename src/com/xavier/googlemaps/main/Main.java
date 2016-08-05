@@ -1,26 +1,27 @@
+package com.xavier.googlemaps.main;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
-
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:mysql://localhost:3306/cities";
         Connection conn = DriverManager.getConnection(url,"XGiles", "Dope1129");
         GoogleMap map;
         Scanner scan = new Scanner(System.in);
         int choice = 1;
-        String location, origin, city;
+        String location, origin, city, originState;
         ArrayList<String> matchingNames= new ArrayList<>();
         PreparedStatement pst = null;
         ResultSet rs = null;
         ResultSetMetaData rsmd = null;
 
         //Begin program
-        System.out.println("Please enter your starting location");
+        System.out.println("Please enter your starting city");
         origin = scan.nextLine();
-        map = new GoogleMap(origin);
+        System.out.println("Please enter your origin state");
+        originState = scan.nextLine();
+        map = new GoogleMap(origin + "," + originState);
 
         //loops until user says no more locations to be entered
         while (choice == 1) {
@@ -35,14 +36,15 @@ public class Main {
             rs = pst.executeQuery();
             //can be deleted after
             rsmd = rs.getMetaData();
+            location = "";
             int columnsNumber = rsmd.getColumnCount();
             while (rs.next()) {
                 for (int i = 1; i <= columnsNumber; i++) {
-                    if (i > 1) System.out.print(",  ");
+                    if (i > 1) location += ",";
                     String columnValue = rs.getString(i);
-                    System.out.print(columnValue + " " + rsmd.getColumnName(i));
+                    location += columnValue;
                 }
-                System.out.println("");
+                System.out.println(location);
             }
             //end of delete
 
