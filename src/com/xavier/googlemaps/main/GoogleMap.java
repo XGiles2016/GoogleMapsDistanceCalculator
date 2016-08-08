@@ -53,7 +53,6 @@ public class GoogleMap {
                 }
             } catch (MalformedURLException e) {
                 e.printStackTrace();
-                //Log.d("error", "error1");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -62,12 +61,27 @@ public class GoogleMap {
         return null;
     }
 
-    public boolean needsFormatting(String location){
+    public static boolean needsFormatting(String location){
         return (location.contains(" "));
+    }
+
+    public static String formattedString(String location){
+        StringBuilder sb = new StringBuilder(location);
+        for(int i = 0; i < sb.length(); i++){
+            if(sb.charAt(i) == ' '){
+                sb.setCharAt(i, '+');
+            }
+        }
+        return sb.toString();
+
     }
 
     public String generateURL(String destination){
         //have to add input default location and destination into the URL string;
+        if(needsFormatting(destination)){
+            destination = formattedString(destination);
+        }
+
         String URL = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + defaultLocation + "&destinations=" + destination + "&key=" + APIkey;
         return URL;
     }

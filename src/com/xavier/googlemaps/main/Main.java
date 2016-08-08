@@ -11,12 +11,11 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int choice = 1;
         String location, origin, city, originState;
-        ArrayList<String> matchingNames= new ArrayList<>();
-        PreparedStatement pst = null;
-        ResultSet rs = null;
-        ResultSetMetaData rsmd = null;
+        PreparedStatement pst;
+        ResultSet rs;
+        ResultSetMetaData rsmd;
 
-        //Begin program
+        //Begin program. Get Origin City
         System.out.println("Please enter your starting city");
         origin = scan.nextLine();
         System.out.println("Please enter your origin state");
@@ -34,10 +33,10 @@ public class Main {
             pst.setString(1,location);
             pst.setString(2,city);
             rs = pst.executeQuery();
-            //can be deleted after
             rsmd = rs.getMetaData();
             location = "";
             int columnsNumber = rsmd.getColumnCount();
+
             while (rs.next()) {
                 for (int i = 1; i <= columnsNumber; i++) {
                     if (i > 1) location += ",";
@@ -46,8 +45,6 @@ public class Main {
                 }
                 System.out.println(location);
             }
-            //end of delete
-
             map.addLocation(location);
             System.out.println("Do you have any more cities you want the distance too?");
             String myChoice = scan.nextLine();
@@ -58,7 +55,6 @@ public class Main {
                 choice = 1;
             }
         }
-
         ArrayList<Location> places = map.getDestinations();
         for(Location x: places){
             System.out.println(map.getOrigin() + " to " + x.getLocationName());

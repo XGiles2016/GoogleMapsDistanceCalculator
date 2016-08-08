@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d267568a-9730-4d90-bfa5-8a8d3e8ab3eb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoogleMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Location.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoogleMaps/GoogleMap.class" afterPath="$PROJECT_DIR$/out/production/GoogleMaps/GoogleMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GoogleMaps/Main.class" afterPath="$PROJECT_DIR$/out/production/GoogleMaps/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/google_maps_services_0_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_maps_services_0_1_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_39_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_39_bin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoogleMaps.iml" afterPath="$PROJECT_DIR$/GoogleMaps.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java" afterPath="$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java" afterPath="$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java" afterPath="$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java" />
     </list>
     <ignored path="GoogleMaps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +50,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoogleMap.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleMap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+            <state relative-caret-position="585">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleMapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cities.cities" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/3b0e577e/bdc929e2-bea7-4f61-a797-7fe6c1c8c041/cities.cities">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+            <state relative-caret-position="480">
+              <caret line="32" column="145" selection-start-line="32" selection-start-column="145" selection-end-line="32" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,10 +100,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state relative-caret-position="-4">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <marker date="1470411470000" expanded="true" signature="1296:1350" ph="SELECT * FRO... cities" />
+                <marker date="1470680495000" expanded="true" signature="1232:1286" ph="SELECT * FRO... cities" />
               </folding>
             </state>
           </provider>
@@ -128,10 +139,10 @@
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/Location.java" />
         <option value="$PROJECT_DIR$/src/main/GoogleMap.java" />
-        <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java" />
         <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/main/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java" />
       </list>
     </option>
   </component>
@@ -170,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
@@ -225,14 +235,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +248,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.39-bin.jar!/" />
@@ -257,10 +264,10 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleMapTest (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="com.xavier.googlemaps.main.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -791,9 +798,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoogleMapTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoogleMapTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoogleMapTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoogleMapTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.GoogleMapTest.testNeedsFormatting" />
       </list>
     </recent_temporary>
@@ -820,63 +827,74 @@
       <workItem from="1466279564543" duration="396000" />
       <workItem from="1466454511202" duration="905000" />
       <workItem from="1470218422392" duration="11119000" />
-      <workItem from="1470399862098" duration="8408000" />
+      <workItem from="1470399862098" duration="8480000" />
+      <workItem from="1470662112187" duration="8052000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleMapTest - 2016.08.05 at 11h 22m 03s.xml">
-      <configuration name="GoogleMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleMapTest - 2016.08.05 at 11h 41m 14s.xml">
-      <configuration name="GoogleMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleMapTest - 2016.08.05 at 11h 50m 16s.xml">
-      <configuration name="GoogleMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleMapTest_(1) - 2016.08.05 at 11h 50m 27s.xml">
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 09h 19m 48s.xml">
       <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 05m 36s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 20m 19s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 06m 56s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 44m 19s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 07m 10s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 46m 03s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 08m 21s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 47m 47s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 11m 36s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 48m 20s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoogleMapTest_testNeedsFormatting - 2016.08.05 at 11h 13m 05s.xml">
-      <configuration name="GoogleMapTest.testNeedsFormatting" configurationId="JUnit" />
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 49m 28s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 50m 32s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 52m 34s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleMapTest_(1) - 2016.08.08 at 13h 52m 53s.xml">
+      <configuration name="GoogleMapTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30165000" />
+    <option name="totallyTimeSpent" value="38289000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39752406" sideWeight="0.49375" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.515625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32737276" sideWeight="0.484375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17734376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -887,7 +905,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -902,107 +919,66 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <marker date="1470680495000" expanded="true" signature="1232:1286" ph="SELECT * FRO... cities" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Location.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="dbDummy://dbtable:/3b0e577e/bdc929e2-bea7-4f61-a797-7fe6c1c8c041/cities.cities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Location.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/GoogleMaps.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1045,88 +1021,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/3b0e577e/bdc929e2-bea7-4f61-a797-7fe6c1c8c041/cities.cities">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/GoogleMapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Location.java" />
+    <entry file="file://$PROJECT_DIR$/test/GoogleMapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Location.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/GoogleMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/GoogleMapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/GoogleMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GoogleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/GoogleMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="32" column="145" selection-start-line="32" selection-start-column="145" selection-end-line="32" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,31 +1048,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/3b0e577e/bdc929e2-bea7-4f61-a797-7fe6c1c8c041/cities.cities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state relative-caret-position="-4">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1470411470000" expanded="true" signature="1296:1350" ph="SELECT * FRO... cities" />
+            <marker date="1470680495000" expanded="true" signature="1232:1286" ph="SELECT * FRO... cities" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/main/GoogleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+        <state relative-caret-position="585">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xavier/googlemaps/test/GoogleMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,7 +1144,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.39-bin</last-edited>
+          <last-edited>google-maps-services-0.1.14</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
