@@ -1,13 +1,27 @@
 package com.xavier.googlemaps.test;
+import com.mysql.fabric.xmlrpc.base.Data;
 import com.xavier.googlemaps.main.*;
 import junit.framework.TestCase;
 import org.junit.Test;
+
+import java.sql.SQLException;
 
 /**
  * Created by Xavier on 8/5/16.
  */
 
-public class GoogleMapTest extends TestCase {
+public class GoogleMapTest extends TestCase{
+
+    Database db;
+
+    public void setup() throws SQLException{
+        db = Database.createInstance();
+    }
+
+    public void tearDown(){
+        db = null;
+    }
+
     @Test
     public void testNeedsFormatting() throws Exception {
         String noFormatting = "Worcester";
@@ -36,4 +50,15 @@ public class GoogleMapTest extends TestCase {
         assertEquals(map.generateURL(destination1), Url1);
         assertEquals(map.generateURL(destination2), Url2);
     }
+    @Test
+    public void testSingletonDBcreator()throws SQLException{
+        Database db1 = Database.createInstance();
+        assertEquals(null, Database.createInstance());
+        db1 = null;
+    }
+    @Test
+    public void testDatabaseCreation() throws SQLException{
+        assertNotNull(Database.createInstance());
+    }
+    
 }
