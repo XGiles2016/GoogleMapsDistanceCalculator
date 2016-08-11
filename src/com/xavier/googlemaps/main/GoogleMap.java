@@ -32,6 +32,7 @@ public class GoogleMap {
 
 
     protected String getDistances(ArrayList<Location> destinations){
+        String json = "";
         for(Location x : destinations) {
             try {
                 URL url = new URL(generateURL(x.getLocationName()));
@@ -46,20 +47,45 @@ public class GoogleMap {
                         sb.append(line);
                         line = br.readLine();
                     }
-                    String json = sb.toString();
-                    System.out.println(json);
-
-
+                    json = sb.toString();
                 }
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
-        return null;
+        return json;
     }
+
+    public String getDistanceString(ArrayList<Location > destinations){
+        String json = getDistances(destinations);
+        String distance =json.substring(json.indexOf("text") + 9, json.indexOf("text") + 21).trim();
+        return "Total Distance: " + distance.substring(0, distance.length() - 2);
+    }
+
+    /**
+     * Could have used .split method to put into String array and find "text" values
+     * Could put getTimeString method and getDistanceString method all into one method for simplicity
+     * Coming in a future iteration when I have the time/patience to do it.
+     *
+     * The getDistanceString and getTimeString need to be tested, will test when
+     * I refactor these two methods into one.
+     */
+
+    public String getTimeString(ArrayList<Location > destinations){
+        String json = getDistances(destinations);
+        String time = json.substring(json.indexOf("duration"), json.indexOf("status")).trim();
+        String time2 = time.substring(time.indexOf("text") + 9, time.indexOf("value") - 2).trim();
+        return "Total Time: " + time2.substring(0,time2.length() - 2);
+    }
+
+    public void print(ArrayList<Location> destinations){
+        System.out.println(getDistances(destinations));
+        System.out.println(getDistanceString(destinations));
+        System.out.println(getTimeString(destinations));
+    }
+
 
     public static boolean needsFormatting(String location){
         return (location.contains(" "));

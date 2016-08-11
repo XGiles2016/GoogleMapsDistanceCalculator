@@ -9,7 +9,7 @@ public class Main {
         Database db = Database.createInstance();
         Scanner scan = new Scanner(System.in);
         int choice = 1;
-        String originCity,originState,destinationCity, destinationState, location;
+        String originCity,originState,destinationCity, destinationState, location, distance;
 
         //Begin program. Get Origin City
         System.out.println("Please enter your starting city");
@@ -43,9 +43,8 @@ public class Main {
         for(Location x: places){
             System.out.println(map.getOrigin() + " to " + x.getLocationName());
         }
-
-        map.getDistances(places);
-
+        map.print(places);
+        db.closeConnection();
     }
 
 

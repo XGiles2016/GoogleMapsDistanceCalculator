@@ -1,5 +1,5 @@
 package com.xavier.googlemaps.test;
-import com.mysql.fabric.xmlrpc.base.Data;
+
 import com.xavier.googlemaps.main.*;
 import junit.framework.TestCase;
 import org.junit.Test;
@@ -60,5 +60,5 @@ public class GoogleMapTest extends TestCase{
     public void testDatabaseCreation() throws SQLException{
         assertNotNull(Database.createInstance());
     }
-    
+
 }
